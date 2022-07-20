@@ -1,0 +1,805 @@
+body{
+    margin: 0;
+}
+.opacity{
+    width: 100%;
+    height: 110vh;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: .4;
+}
+
+.first_page_pic{
+    width: 100%;
+    height: 110vh;
+    
+}
+.row{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    top: 25px;
+}
+
+
+.logo{
+    
+    width: 100px;
+    position: absolute;
+    left: 30px;
+    
+
+}
+
+#pepsico{
+    font-family:Monospace;
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    font-size: 33px;
+    display: inline;
+}
+.navigations{
+    position: absolute;
+    left: 267px;
+    top: 25px;
+}
+
+.navigations li{
+    display: inline;
+    margin-left: 20px;
+    
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.search{
+    
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    
+
+} 
+
+.contact{
+    color: #fff;
+    display: inline;
+    padding-top: 22px;
+    
+}
+.global_logo{
+    
+    width: 40px;
+    
+
+   
+}
+.us{
+    color: #fff;
+    display: inline;
+    padding-top: 22px;
+}
+.search_icon{
+    width: 43px;
+    display: inline;
+
+    
+} 
+.main_content{
+    display: flex;
+    
+}
+.content{
+    position: absolute;
+    top: 258px;
+    left: 311px;
+    font-size: 60px;
+    font-family: monospace;
+    color: #fff;
+}
+
+
+/*-------second page------------*/
+
+.second_page{
+    display: flex;
+}
+
+
+
+.left_side{
+    width: 50%;
+    height: 100vh;
+    background-color:#ffc107;
+
+}
+.texts{
+    padding-left: 30px;
+    padding-top: 85px;
+    font-family:sans-serif;
+    
+}
+.one{
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0;
+}
+.two{
+    font-size: 43px;
+    font-weight: 900;
+    margin-top: 10px;
+   
+}
+.three,.four{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.five{
+    font-size: 15;
+    font-weight: 900;
+}
+.right_side{
+    display: flex;
+    
+
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(https://thumbs.dreamstime.com/b/bottles-carbonated-soft-drink-pepsi-poznan-pol-dec-produced-manufactured-pepsico-beverage-was-created-developed-138106476.jpg);
+    background-size: cover;
+}
+
+
+
+/*-----------third page---------*/
+.image1{
+    margin-top: 30px;
+}
+.third_page_img1{
+    margin-top: -50px;
+    z-index: 0;
+    padding-left: 152px;
+   
+    display: flex;
+   
+    display: inline;
+    
+    
+}
+
+
+
+.chilli{
+    padding-left: 30px;
+    margin-top: 20px;
+    
+    z-index: 2; 
+    position: relative;
+}
+.third_page_text1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    padding-left: 380px;
+    margin-top: -280px;
+    text-align: center;
+    
+    /* -webkit-text-stroke: 1px #000000; */
+    
+}
+.third_page_text1 h1{
+    background-color: #fff;
+    color: black;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.third_page_text1 h3{
+    background-color: #ffc107;
+   
+    
+}
+.image2{
+    margin-top: 30px;
+}
+.third_page_img2{
+    margin-top: -50px;
+    z-index: 0;
+    padding-left: 152px;
+   
+    display: flex;
+   
+    display: inline;
+    
+    
+}
+.third_page_text2{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    position: absolute;
+    padding-left: 380px;
+    margin-top: -280px;
+    text-align: center;
+    
+    /* -webkit-text-stroke: 1px #000000; */
+    
+}
+.third_page_text2 h1{
+    background-color: #fff;
+    color: black;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.third_page_text2    h3{
+    background-color: #ffc107;
+   
+    
+}
+
+
+/*--------------fourth section-----------*/
+
+.fourth_page{
+    /* position: absolute;
+    left: 151px; */
+    padding-left: 152px;
+    margin-top: 30px;
+    width:1001px ;
+    height:400px ;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.fourth_page span{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+   
+    position: relative;
+    top: 250px;
+}
+.fourth_lef_side{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://c8.alamy.com/comp/2B9X6K1/small-bottle-of-pepsi-blue-with-glass-in-garden-in-springtime-2B9X6K1.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.fourth_right_side{
+    
+    width: 45%;
+    height: 100%;
+    
+    
+    background-image: url(https://i0.wp.com/wellnessjoy.life/wp-content/uploads/2019/11/5987ea58-1cd7-11e6-9777-749fedcc73f5_1280x720.jpg?fit=1200%2C800&ssl=1); 
+    background-size: cover;
+}
+
+.forth_page_footer2{
+    position: relative;
+    top: 397px;
+    line-height: 4px;
+
+}
+
+/*---------fifth page-----------*/
+
+.fifth_page{
+    display: flex;
+}
+.fifth_page h1{
+    color: palevioletred;
+    font-size: 25vh;
+    opacity: .1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.fifth_page h5{
+    position: relative;
+    top: -229px;
+    left: 170px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifth_page .left{
+    position: relative;
+    left: 250px;
+
+    
+}
+/*--------------sixth page-------------*/
+
+.sixth_page{
+    height: 200px;
+    width: 100%;
+    position: relative;
+    top: -170px;
+
+    
+}
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.product1 img{
+    width: 160px;
+}
+
+.product2 img{
+    width: 160px;
+
+
+}
+
+.product3 img{
+    width: 150px;
+    margin-top: -10px;
+}
+.product4 img{ 
+    width: 160px;
+
+}
+.product5 img{
+    width: 160px;
+
+}
+.product6 img{
+    width: 160px;
+
+}
+
+/*------------section seven-----------*/
+
+.section_seven{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -100px;
+}
+.section_seven1, .section_seven2{
+    display:flex ;
+}
+.seven_content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.seven_content h1{
+    font-size: 40px;
+}
+.seven_content h3{
+    color: #5f5e5b;
+}
+.seven_content h4{
+    color: #3234c0;
+}
+/*--------------section eigth--------*/
+.section_eight{
+    width: 100%;
+    height: 100vh;
+    background-color: #c05535;
+    position: relative;
+    top: -100px;
+}
+.section_eight h1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    
+}
+.section_eight img{
+    width: 200px;
+}
+.eight1{
+    position: relative;
+
+}
+.section_eight h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fff;
+}
+.section_eight h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.eight_content{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+/*----------------section nine-----------------*/
+.nine{
+    display: flex;
+}
+
+.nine_left h1{
+    position: relative;
+    top: -130px;
+    color: palevioletred;
+    font-size: 25vh;
+    opacity: .1000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+.nine_left h5{
+   position: relative;
+   top: -380px;
+   left: 200px;
+   font-size: 35px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+
+
+}
+.nine_right img{
+    width: 500px;
+    position: relative;
+    left: 500px;
+    top: 20px;
+    
+    
+
+}
+/*-----------------section ten----------------*/
+.section_ten{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+    top: -250px;
+}
+.ten{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+
+.ten .ten1{
+
+    height: 300px;
+    width: 250px;
+    background-color: #5f5e5b;
+    background-image: url(https://media.gettyimages.com/photos/lays-potato-chips-pack-seen-in-a-supermarket-picture-id1228941340?s=612x612);
+    background-size: cover;
+}
+.ten p{
+    text-align: center;
+    color: #fff;
+    margin-top: 320px;
+}
+.ten .ten2{
+    height: 300px;
+    width: 250px;
+    background-color: #5f5e5b;
+    background-image: url(https://cdn.shopify.com/s/files/1/0255/9616/6180/files/drinks_1024x1024.png?v=1647427700);
+    background-size: cover;
+}
+.ten .ten3{
+    height: 300px;
+    width: 250px;
+    background-color: #5f5e5b;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191120-blackberry-virgin-mojito-delish-ehg-4719-1583519572.jpg?crop=0.668xw:1.00xh;0.0929xw,0&resize=640:*);
+    background-size: cover;
+}
+.ten .ten4{
+    height: 300px;
+    width: 250px;
+    background-color: #5f5e5b;
+    background-image: url(https://media.self.com/photos/622912847b959736301bfb91/4:3/w_2560%2Cc_limit/GettyImages-1301412050.jpg);
+    background-size: cover;
+}
+/*--------------section eleven-------------*/
+.eleven{
+    display: flex;
+}
+
+.eleven_left{
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://www.digitaltrends.com/wp-content/uploads/2020/04/man-using-laptop-2764669.jpg?fit=720%2C720&p=1);
+    background-size: cover;
+    
+}
+.eleven_right{
+    position: relative;
+    top: 200px;
+    left: 90px;
+}
+.eleven_right h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.eleven_right h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.eleven_right h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+/*---------section tolve-----------*/
+
+.twelve{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://cdn.downtoearth.org.in/library/large/2022-02-22/0.65458700_1645519013_45.jpg);
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+    
+}
+.twelve h5{
+    font-size: 25px; 
+    position: relative;
+    top: 170px;
+}
+.twelve_span{
+    font-size: 41px;
+    color: black;
+    position: relative;
+    top: 150px;
+   
+    background-color: #fff;
+    
+   
+}
+/*----------------section thirteen--------------*/
+
+
+.tirteen_main_div{
+    display: flex;
+}
+
+.thirteen_left{
+    width: 50%;
+    height: 100vh;
+    background-color: #ffc107;
+}
+.thirteen_right{
+    width: 50%;
+    height: 100vh;
+    background-image: url(https://c.stocksy.com/a/bh2500/z9/1202031.jpg);
+    background-size: cover;
+}
+.thirteen_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 190px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    line-height: 1px;
+
+   
+}
+.thirteen_content h3{
+    font-size: 20px;
+
+}
+.thirteen_content h1{
+    font-size: 50px;
+    line-height: 35px;
+}
+.thirteen_content p{
+    font-weight: 100;
+    line-height: 20px;
+}
+/*----------section forteen------------*/
+.forteen{
+    display: flex;
+    justify-content:space-between;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+}
+.input{
+    border: 0;
+    border-bottom: 2px solid #2196f3;
+    width: 202px;
+}
+.forteen_right button{
+    background-color: #3234c0;
+    color: #fff;
+    border: 0;
+    width: 81px;
+    height: 32px;
+}
+.forteen_right h5{
+    font-size: 15px;
+}
+/*----------------section fifteen----------------*/
+.fifteen{
+   display: flex;
+   justify-content: space-evenly;
+   font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+.fifteen1{
+    height: 250px;
+    width: 400px;
+    background-color: #c05535;
+    background-image: url(https://media.ed.edmunds-media.com/ford/transit-passenger-van/2020/oem/2020_ford_transit-passenger-van_passenger-van_350-hd-xlt-high-roof_fq_oem_1_1280.jpg);
+    background-size: cover;
+}
+.fifteen2{
+    height: 250px;
+    width: 400px;
+    background-color: #351b13;
+    background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/t_focal-758x379,f_auto,q_auto:best/rockcms/2022-03/plant-based-food-mc-220323-02-273c7b.jpg);
+    background-size: cover;
+}
+.fifteen3{
+    height: 250px;
+    width: 400px;
+    background-color: #155f36;
+    background-image: url(https://cdn.photographycourse.net/wp-content/uploads/2022/04/types-of-cameras.jpg);
+    background-size: cover;
+}
+.fifteen_content{
+
+    display: flex;
+    justify-content: last baseline;
+    flex-direction: column;
+    line-height: -10px;
+    position: relative;
+    top: 245px; 
+    
+    
+}
+.fifteen_content h6{
+    margin: 5px;
+    font-size: 15px;
+}
+/*-------------final section--------------*/
+
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #3234c0;
+    position: relative;
+    top: 170px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+.arrow{
+    width: 70px;
+    position: relative;
+    left: 4px;
+    top: -82px;
+}
+
+.social_media_icons img{
+    width: 70px;
+    position: relative;
+    top: -100px;
+    right: 294px;
+}
+
+.top{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+
+.top_right{
+    position: relative;
+    left: 693px;
+    top: 76px;
+    align-items: center;
+}
+.top_right h3{
+    position: relative;
+    left: -80px;
+}
+.top_left{
+    position: relative;
+    left: 98px;
+    top: 76px;
+}
+.top_left img{
+    width: 70px;
+    position: relative;
+    right: 23px;
+} 
+.top_left .span2{
+    position: relative;
+    left: 181px;
+}
+.top_left .careers{
+    position: relative;
+    top: 40px;
+}
+.top_left .span1{
+    position: relative;
+    right: 51px;
+    font-weight: 900;
+}
+/*-------------------------------------*/
+.left_bottom_span{
+    font-size: 11px;
+    line-height: 200px;
+    position: relative;
+    top: 30px;
+    
+}
+.left_bottom_span span{
+    margin-left: 15px;
+    position: relative;
+    right: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right_bottom{
+    position: relative;
+    top: -120px;
+    right: 305px;
+    line-height: 20px;
+    
+    text-align: end;
+   
+    
+}
+.right_bottom h6{
+    margin: 15px;
+}
+
+
+
+
+
+    
+
+ 
+
+
+
+
+
+
+
+    
+
+
+
+
